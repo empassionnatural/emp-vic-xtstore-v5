@@ -1,0 +1,22 @@
+#place_order.button.alt:disabled, #place_order.button.alt.disabled{
+    background-color: #c1c1c1 !important;
+    border: 1px solid #ababab;
+}
+#place_order.button.alt:hover{
+    background-color: #92c707;
+    cursor: pointer;
+}
+.states-info{
+    margin-top: 20px;
+}
+.states-info .woocommerce-info:before {
+    display: none;
+}
+.states-info .woocommerce-info{
+    border-top-color: #c15757;
+}
+
+.states-info a{
+    color: #ff0000 !important;
+    font-size: 18px;
+}

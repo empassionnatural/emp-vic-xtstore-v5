@@ -1,0 +1,153 @@
+#register-page.vc_row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#register-page #login #register-form .error-box .woocommerce-error li {
+    font-weight: 1 !important;
+}
+#register-page #login #register-form .error-box .woocommerce-error {
+    color: black !important;
+}
+#register-page #bg-registration .vc_column-inner {
+    padding-top: 64.7% !important;
+    padding-bottom: 72.2% !important;
+}
+#register-page #login #login-bground , #register-page #login #login-form {
+    display: none !important;
+}
+#register-page #login #register-form.u-column2.col-2 {
+    display: block;
+}
+#register-page #login .vc_column-inner .wpb_wrapper {
+    padding-top: 0%;
+}
+#register-page #login {
+    background: linear-gradient(to right, #e4ffee , #fdecc6);
+    padding-top: 0px;
+    max-height: 100%;
+    padding-bottom: 300px;
+    float: left;
+}
+
+#register-page #login #register-form #reg_email , #register-page #login #register-form #reg_password {
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    background-color: transparent !important;
+}
+#register-page #login #register-form label[target=_email] ,#register-page #login #register-form label[target=_password] {
+    color: #666666;
+}
+
+#register-page #login #register-form.u-column2.col-2 {
+    padding: 2.7em !important;
+    max-width: 554px;
+    width: 100%;
+}
+#register-page #login #register-form form.register input {
+    max-width: 554px;
+}
+#register-page #login #register-form form.register .wpuef_field {
+    width: 186px;
+}
+#register-page #login #customer_login button.woocommerce-Button.button {
+    margin-top: 20px;
+}
+#register-page #login #register-form form.register .button {
+    background-color: #88af2c;
+    border-width: 0px;
+    color: white;
+    margin-right: 10px;
+    height: auto;
+    line-height: 1.2;
+}
+#register-page #login #register-form form.register .button:hover {
+    background-color: #ffffff !important;
+    border-width: 1px;
+    border-color: #ffffff;
+    border: 0px !important;
+    color: #88af2c !important;
+}
+#register-page #login #register-form .error-box {
+    height: 140px;
+    max-height: 140px;
+}
+#register-page #login #register-form h2, .h2 {
+    margin-top: 0;
+    font-size: 2.1428em;
+    margin-bottom: .7em;
+    font-weight: 700;
+    color: #1e1e1e !important;
+}
+#register-page #login #register-form #reg_password {
+    margin-bottom: 23px;
+}
+
+@media (max-width:1940px) {
+}
+@media (max-width:1199px) {
+    #register-page #bg-registration .vc_column-inner {
+        padding-top: 67.66% !important;
+    }
+}
+@media (max-width:1024px) {
+    #register-page #login {
+        padding-bottom: 111px;
+    }
+}
+@media (max-width:992px) {
+    #register-page #bg-registration .vc_column-inner {
+        padding-top: 62.66% !important;
+        padding-bottom: 77% !important;
+    }
+    #register-page #login {
+        padding-bottom: 111px;
+    }
+}
+@media (max-width:991px) {
+    #register-page #bg-registration .vc_column-inner {
+        padding-top: 91.66% !important;
+        padding-bottom: 91% !important;
+    }
+    #register-page #login {
+        padding-bottom: 88px;
+    }
+}
+@media (max-width:769px) {
+    #register-page #login #register-form.u-column2.col-2 {
+        max-width: 690px;
+    }
+    #register-page #bg-registration.vc_col-sm-6 {
+        width: 100%;
+    }
+    #register-page #bg-registration .vc_column-inner {
+        padding-top: 20% !important;
+        padding-bottom: 20% !important;
+        width: 100%;
+        max-width: 100%;
+        float: left;
+    }
+    #register-page #login {
+        width: 100%;
+    }
+    #register-page #login #customer_login form.register ,#register-page #login #customer_login h2 {
+        max-width: 75% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+@media (max-width:415px) {
+    #register-page #bg-registration .vc_column-inner {
+        padding-top: 32% !important;
+        padding-bottom: 37% !important;
+    }
+    #register-page #login #customer_login form.register, #register-page #login #customer_login h2 {
+        max-width: 100% !important;
+    }
+    #register-page #login #register-form.u-column2.col-2 {
+        padding: 2.7em 0em !important;
+    }
+    #register-page #login #register-form form.register .button {
+        width: 100%;
+    }
+}
